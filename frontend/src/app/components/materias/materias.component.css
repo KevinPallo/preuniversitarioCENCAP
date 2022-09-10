@@ -1,0 +1,14 @@
+.col img{
+    width: 100%;
+}
+
+.col{
+    padding: 2px;
+}
+
+.col h4{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.349);
+}

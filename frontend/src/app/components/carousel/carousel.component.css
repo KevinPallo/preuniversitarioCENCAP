@@ -1,0 +1,86 @@
+.dsc-carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 500px;
+}
+
+.dsc-carousel::before{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
+.dsc-carousel .dsc-carousel_content{
+    text-align: center;
+    width: 100%;
+    align-self: stretch;
+    display: flex;
+    overflow: hidden;
+}
+
+.dsc-carousel .dsc-carousel_content-item{
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 1s all ease-in;
+    
+}
+
+.dsc-carousel .dsc-carousel_btns{
+    position: absolute;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: visible;
+}
+
+.dsc-carousel .dsc-carousel_btns>svg{
+    opacity: 0.7;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    font-size: 45px;
+    cursor: pointer;
+    justify-content: space-between;
+    z-index: 10px;
+    padding: 5px;
+    background-color: rgba(27, 148, 234, 0.658);
+}
+
+.dsc-carousel .dsc-carousel_steps{
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.dsc-carousel .dsc-carousel_steps .dsc-carousel_steps-step{
+    height: 8px;
+    width: 25px;
+    margin: 0 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.75s all ease-in-out;
+}
+
+.dsc-carousel .dsc-carousel_steps .dsc-carousel_steps-step:hover{
+    opacity: 0.7;
+    background: white;
+}
+

@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="col-lg-2">
+        <img src="../../../assets/imagenes/logo.jpg" alt="">
+    </div>
+    <div class="col-lg-8">
+        <nav>
+            <ul>
+                <li><a [routerLink]="['/inicio']">Inicio</a></li>
+                <li><a [routerLink]="['/login/institucional']">Institucional</a></li>
+                <li><a [routerLink]="['/login/academico']">Academico</a></li>
+                <li><a href="">Simuladores</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="col-lg-2 button ">
+        <button>Get a quote</button>
+    </div>
+</div>
+ 
+<app-carousel [items]="carouselData"></app-carousel>
+<app-footer></app-footer>
