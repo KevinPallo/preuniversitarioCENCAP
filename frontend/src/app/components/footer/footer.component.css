@@ -1,0 +1,18 @@
+.footer{
+    background-color: rgb(63, 81, 181);
+}
+
+.box{
+    padding: 40px 0px;
+    color: white;
+}
+
+.box a{
+    color: white;
+    text-decoration: none;
+}
+
+.box svg{
+    color: rgb(242, 78, 30);
+}
+
