@@ -1,0 +1,43 @@
+.row{
+    max-height: 189px;
+}
+
+.row img{
+    width: 86%;
+    margin-left: 7%;
+    max-height: 189px;
+}
+
+nav ul{
+    padding: 10% 0px;
+    margin-bottom: 0px;
+}
+
+nav ul li{
+    display: inline-flex;
+    margin-left: 10%;
+}
+
+nav ul li a{
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    border: rgb(27, 147, 234) 2px groove;
+    background-color: rgb(53, 187, 218);
+    padding: 10px 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    border-radius: 30px;
+}
+

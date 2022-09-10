@@ -1,1 +1,108 @@
-/* You can add global styles to this file, and also import other style files */
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.row{
+    margin: 0px;
+}
+
+.space{
+    height: 4px;
+}
+
+/* Inicio estilos para login */
+
+.col-form{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.imagen{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgba(29, 29, 29, 0.904);
+}
+
+.imagen img{
+    width: 100%;
+}
+
+.col-form{  
+    padding: 3% 10% ; 
+
+}
+
+.fromRegister{
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.fromRegister span{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.form{
+    padding: 5%;
+    height: 100% !important;
+    display: flex;
+    align-items: center; 
+}
+
+.content-form{
+    border: 2px groove rgba(54, 77, 99, 0.13);
+    padding: 25px 5px;
+    border-radius: 10px;
+}
+
+
+input[type="submit"]{
+    background-color: rgb(63, 81, 181);
+    border: 2px rgb(82, 98, 185) groove;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+form input[type="email"]{
+    height: 25px;
+}
+
+form input[type="password"]{
+    height: 25px;
+}
+
+form a{
+    text-decoration: none;
+    color: rgb(78, 104, 223);
+    font-size: 12px;
+    justify-content: space-between;
+}
+
+form .crear-cuenta{
+    margin-left: 15px;
+}
+
+form label{
+    font-size: 14px;
+}
+
+
+
+
+/* Fin estilos para login */
