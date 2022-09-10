@@ -12,12 +12,11 @@ export class LoginComponent implements OnInit {
 
   constructor(private rutaActiva: ActivatedRoute) {
     this.typeLogin = {
-      parametro:this.rutaActiva.snapshot.params['parametro']
+      parametro: this.rutaActiva.snapshot.params['parametro'] as string
     }
    }
 
   ngOnInit(): void {
-    
   }
 
 }

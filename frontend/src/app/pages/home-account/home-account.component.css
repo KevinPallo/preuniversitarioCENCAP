@@ -1,0 +1,34 @@
+.col{
+    padding: 4px 0px; 
+}
+
+.row-1{
+    background-color: rgb(63, 81, 181);
+}
+
+.back-tags{
+    background-color: rgb(63, 81, 181);
+    padding: 10px 5px;
+}
+
+.back-tags svg{
+    color: rgb(78, 203, 113);
+    margin-right: 10px;
+}
+
+.back-tags span{
+    color: white;
+}
+
+.view-general{
+    padding: 10px 5px;
+}
+
+.view-general svg{
+    color: rgb(78, 203, 113);
+    margin-right: 10px;
+}
+
+.view-general span{
+    font-weight: 500;
+}

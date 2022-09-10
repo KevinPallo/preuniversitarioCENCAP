@@ -9,6 +9,7 @@ import { HomeAccountComponent } from './pages/home-account/home-account.componen
 import { FooterComponent } from './components/footer/footer.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { MateriasComponent } from './components/materias/materias.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     RegisterComponent,
     HomeAccountComponent,
     FooterComponent,
-    CarouselComponent
+    CarouselComponent,
+    MateriasComponent
   ],
   imports: [
     BrowserModule,
