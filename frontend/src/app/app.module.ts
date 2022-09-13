@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -10,6 +12,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { MateriasComponent } from './components/materias/materias.component';
+import { FormularioComponent } from './components/materias/formulario/formulario.component';
+
+
 
 @NgModule({
   declarations: [
@@ -20,11 +25,13 @@ import { MateriasComponent } from './components/materias/materias.component';
     HomeAccountComponent,
     FooterComponent,
     CarouselComponent,
-    MateriasComponent
+    MateriasComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

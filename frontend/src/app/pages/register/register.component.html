@@ -5,12 +5,7 @@
     <div class="col-form col-lg-6">
         <div class="form">
             <div class="content-form">
-                <div class="row">
-                    <div class="col-lg-3"></div>
-                    <div class="imagen col-lg-6">
-                        <img src="../../../assets/imagenes/logo.jpg" alt=""> 
-                    </div>
-                </div>
+
                 <div class="row">
                     <div class="col-lg-2"></div>
                     <div class="col-lg-8 fromRegister">
@@ -26,10 +21,15 @@
                           </svg>
                     </div>
                     <div class="col-lg-8">
-                        <form action="" >
-                            <label for="">Usuario</label><br><input type="email" name="" id="">
-                            <label for="">Contraseña</label><br><input type="password" name="" id="">
-                            <label for="">Confirmar contraseña</label><br><input type="password" name="" id=""><br>
+                        <form [formGroup]="formRegister" (ngSubmit)="onSubmit()" >
+                            <label for="">Nombres</label><br><input formControlName="nombres" type="text" name="" id=""><br>
+                            <label for="">Apellidos</label><br><input formControlName="apellidos" type="text" name="" id=""><br>
+                            <label for="">Correo electrónico</label><br><input formControlName="email" type="email" name="" id=""><br>
+                            <label for="">CI</label><br><input formControlName="ci" type="text" name="" id=""><br>
+                            <label for="">Fecha Nacimiento</label><br><input formControlName="fechaNacimiento"  type="email" name="" id=""><br>
+                            <label for="">Dirección</label><br><input formControlName="direccion" type="text" name="" id=""><br>
+                            <label for="">Contraseña</label><br><input formControlName="contraseña" type="password" name="" id=""><br>
+                            <label for="">Confirmar contraseña</label><br><input formControlName="confContraseña" type="password" name="" id=""><br>
                             <div class="space"></div>
                             <input type="submit" value="Registrar"><br>
                             <div class="space"></div><div class="space"></div>

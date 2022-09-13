@@ -32,3 +32,35 @@
 .view-general span{
     font-weight: 500;
 }
+
+button{
+    background-color: rgba(240, 248, 255, 0);
+    border: 0px groove;
+}
+
+button:hover{
+    background-color: rgba(240, 248, 255, 0.103);
+    border-radius: 10px;
+}
+
+
+#inputBuscar{
+    height: 20px;
+    border: 0px groove;
+    font-size: 12px;
+    width: 50%;
+}
+
+#buttonSearch svg{
+    color: white;
+    margin: 0px;
+}
+
+#buttonSearch{
+    background-color: rgba(240, 255, 255, 0);
+    border: 1px groove rgba(128, 128, 128, 0.281);
+}
+
+#buttonSearch:hover{
+    background-color: rgba(240, 255, 255, 0);
+}

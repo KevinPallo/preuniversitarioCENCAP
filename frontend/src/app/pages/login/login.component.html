@@ -23,14 +23,14 @@
                         </svg>
                     </div>
                     <div class="col-lg-8">
-                        <form action="" >
-                            <label for="">Usuario</label><br><input type="email" name="" id="">
-                            <label for="">Contraseña</label><br><input type="password" name="" id=""><br>
+                        <form action="" [formGroup]="formLogin" (ngSubmit)="onSubmit()">
+                            <label for="">Correo electrónico</label><br><input formControlName="email" type="email" name="" id="">
+                            <label for="">Contraseña</label><br><input formControlName="contraseña" type="password" name="" id=""><br>
                             <div class="space"></div>
                             <input type="submit" value="Iniciar sesion"><br>
                             <div class="space"></div><div class="space"></div>
                             <a href="">Olvidaste la contraseña</a>
-                            <a href="" [routerLink]="['/registro']" class="crear-cuenta">Crear cuenta</a>
+                            <a href="" [routerLink]="['/registro/'+typeLogin.parametro]" class="crear-cuenta">Crear cuenta</a> 
                         </form>
                     </div>
                 </div>    

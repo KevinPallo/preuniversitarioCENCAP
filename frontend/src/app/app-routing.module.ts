@@ -9,8 +9,8 @@ import { RegisterComponent } from './pages/register/register.component';
 const routes: Routes = [
     {path:'inicio',component:HomeComponent},
     {path:'login/:parametro',component:LoginComponent},
-    {path:'registro',component:RegisterComponent},
-    {path:'home',component:HomeAccountComponent},
+    {path:'registro/:parametro',component:RegisterComponent},
+    {path:'home/:parametro',component:HomeAccountComponent},
     {path:'**',component:HomeComponent},
 ];
 

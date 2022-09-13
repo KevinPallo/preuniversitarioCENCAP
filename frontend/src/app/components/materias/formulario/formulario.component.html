@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="col-lg-4"></div>
+    <div class="col-lg-4 text-center">
+        <form [formGroup]="formNuevaMateria" (ngSubmit)="onSubmit()" >
+            <label for="">Nombre</label><br><input formControlName="nombre" type="text" name="" id=""><br>
+            <label for="">Quimestre</label><br><input formControlName="quimestre" type="text" name="" id=""><br>
+            <label for="">Tipo de materia</label><br><input formControlName="tipo" type="text" name="" id=""><br>
+            <label for="">Cupos disponibles</label><br><input formControlName="cupos" type="text" name="" id=""><br>
+            <label for="">Costo</label><br><input formControlName="costo" type="text" name="" id=""><br>
+            <div class="space"></div>
+            <input type="submit" value="Registrar"><br>
+            <div class="space"></div><div class="space"></div>
+        </form>
+    </div>
+    <div class="col-lg-4"></div>
+</div>
+
